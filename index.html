@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxe Horizons</title>
+    <link rel="stylesheet" href="./index.css">
+    <!-- bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Asap+Condensed:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,400;1,500;1,600;1,700;1,800;1,900&family=Asap:ital,wght@0,100..900;1,100..900&family=Corben:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Parkinsans:wght@300..800&family=Questrial&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- fontawesome -->
+    <!-- Font Awesome CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand fs-1 fw-bolder" href="#"><span style="color: rgb(0, 141, 218);">Luxe</span>
+                    Horizons</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse mt-2" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a id="button" class="nav-link active md:ms-5 ms-3 fs-5 fw-medium  button"
+                                aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-3 fs-5 fw-medium  button" href="#booking">Book</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-3 fs-5 fw-medium  button" href="#package">Packages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-3 fs-5 fw-medium  button" href="#service">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-3 fs-5 fw-medium  button" href="#feedback">Reviews</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home About us -->
+    <secton id="home">
+        <div class="container-fluid d-md-flex justify-content-center align-items-center flex-column" id="home">
+            <div class="content row">
+                <h5 class="text-center text-light fw-bold fs-1">Welcome To Luxe Horizons</h5>
+                <h1 style="color: rgb(0, 0, 0)" class="fst-italic text-center text-justify  fs-2 mt-md-3 mt-1 px-5">“The
+                    world is vast, and every horizon holds a new story. Let Luxe Horizons guide you to your next
+                    chapter.”</h1>
+                <div class="text-light fs-5 fw-md-medium fw-fst-normal  p-md-5 p-2  mb-5">
+                    <p style="text-align: justify;">Welcome to Luxe Horizons, where your journey begins with the promise of unforgettable
+                        experiences. We are more than a travel agency—we are your gateway to a world of adventure,
+                        luxury, and discovery.
+
+                        Our Mission
+                        At Luxe Horizons, we believe travel is more than just moving from one place to another. It’s
+                        about creating memories, forging connections, and uncovering the beauty of the world in all its
+                        forms. Our mission is to craft personalized travel experiences that combine luxury,
+                        authenticity, and seamless planning, ensuring your journeys are as unique as you are.
+                    </p>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <!-- booking -->
+
+        <section id="booking">
+            <div class="container mt-5">
+                <h2 class="text-center fs-2 fw-bold" style="color: rgb(30, 62, 98);">Book Now!</h2>
+                <div class="row mt-5">
+                    <div class="col-md-6 col-12">
+                        <img src="https://st2.depositphotos.com/3837271/5507/i/450/depositphotos_55072853-stock-photo-time-to-travel-wooden-sign.jpg"
+                            alt="" class="md-w-full w-100 rounded shadow" height="">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="d-flex justify-content-center align-items-center flex-column">
+                            <input type="text" placeholder="Destination"
+                                class="form-control w-full shadow mt-md-2 mt-4">
+                            <input type="text" placeholder="'Number of Passengers"
+                                class="form-control w-full shadow mt-3">
+                            <label for="startDate" class="form-label mt-3">Select Starting Date</label>
+                            <input type="date" class="form-control w-full shadow">
+                            <label for="startDate" class="form-label mt-3">Select Starting Date</label>
+                            <input type="date" class="form-control w-full shadow ">
+                            <textarea class="form-control shadow mt-3" placeholder="Enter your Name & Contact Details"
+                                id="floatingTextarea2" style="height: 100px"></textarea>
+                        </div>
+                        <button class="text-start btn  mt-3"
+                            style="background-color: rgb(27, 31, 33); color: white;">Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- packages -->
+
+        <section id="package">
+            <div class="container mt-5">
+                <h2 class="text-center fs-2 fw-bold" style="color: rgb(30, 62, 98);">Packages</h2>
+                <div class="row mt-md-5">
+                    <div class="col-md-4 mt-4 mt-lg-0">
+                        <div class="card shadow " style="width:100%">
+                            <img src="https://media.istockphoto.com/id/183996236/photo/helsinki-finland.jpg?b=1&s=612x612&w=0&k=20&c=beLx90EYsknQuEP6yclvbjXJvhle0xd2yO4Rog2yZrA="
+                                class="card-img-top" style="height: 250px; width: 100%;" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-center mt-3 fs-2 fw-bold">Finland</h5>
+                                <p class="card-text text-justify" style="text-align: justify;">Finland is a great place
+                                    to see the Northern Lights, which are a natural light show of green, white, and
+                                    purple colors that can be seen from a glass igloo, a glass-sided treehouse, or
+                                    simply standing under the night sky.</p>
+                                <p class="fs-5">Price : <span class="fw-medium" style="color: rgb(255, 9, 17);">$10000</span></p>
+                                <a href="#" class="btn"
+                                    style="background-color: rgb(27, 31, 33); color: white;">Book</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-4 mt-lg-0">
+                        <div class="card shadow" style="width:100%">
+                            <img src="https://www.flamingotravels.co.in/_next/image?url=https%3A%2F%2Fimgcdn.flamingotravels.co.in%2FImages%2FMenu%2FDestination%2Fgreece.jpg&w=1200&q=75"
+                                class="card-img-top" style="height: 250px; width: 100%;" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-center mt-3 fs-2 fw-bold">Greece</h5>
+                                <p class="card-text text-justify" style="text-align: justify;">Greece is known for its
+                                    thousands of islands, including Crete, Euboea, Lesbos, and Rhodes. The islands are
+                                    scattered across the Aegean Sea, the Mediterranean Sea, and the Ionian Sea is a
+                                    treat to watch.</p>
+                                <p class="fs-5">Price : <span class="fw-medium"
+                                        style="color: rgb(255, 9, 17);">$10000</span></p>
+                                <a href="#" class="btn"
+                                    style="background-color: rgb(27, 31, 33); color: white;">Book</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-4 mt-lg-0">
+                        <div class="card shadow" style="width:100%">
+                            <img src="https://imgcdn.flamingotravels.co.in/Images/Country/switzerland-best-time-to-visit.jpg"
+                                class="card-img-top" style="height: 250px; width: 100%;" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-center mt-3 fs-2 fw-bold">Switzerland</h5>
+                                <p class="card-text text-justify" style="text-align: justify;">Switzerland offers a
+                                    variety of activities for all ages and interests, including skiing, mountaineering,
+                                    sightseeing, exploring medieval architecture, and visiting museums and art galleries
+                                </p>
+                                <p class="fs-5">Price : <span class="fw-medium"
+                                        style="color: rgb(255, 9, 17);">$10000</span></p>
+                                <a href="#" class="btn"
+                                    style="background-color: rgb(27, 31, 33); color: white;">Book</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-4 mt-4 mt-lg-0">
+                        <div class="card shadow" style="width:100%">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToDiety6_bcn1QjLODa6A41IbkM54bdxkBgw&s"
+                                class="card-img-top" style="height: 250px; width: 100%;" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-center mt-3 fs-2 fw-bold">Scotland</h5>
+                                <p class="card-text text-justify" style="text-align: justify;">Scotland is a country in
+                                    Europe and is part of the island of Great Britain (Europe's largest island)
+                                    alongside England, Wales and Northern Ireland. This lush beautiful country is
+                                    bursting with green spaces, lush forests, towering mountains and vast lochs</p>
+                                <p class="fs-5">Price : <span class="fw-medium"
+                                        style="color: rgb(255, 9, 17);">$10000</span></p>
+                                <a href="#" class="btn"
+                                    style="background-color: rgb(27, 31, 33); color: white;">Book</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-4 mt-lg-0">
+                        <div class="card shadow" style="width:100%">
+                            <img src="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQah0nx-8JN0bR-5jvb_OHuW_5lUNJhxFVQCnwd3jbQDIuHJ7z0QSPTYBSW9eOlyOqTEkIbwW2vtC8S55mc4I4g6SP5YrmPPyy_cf8fEA"
+                                class="card-img-top" style="height: 250px; width: 100%;" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-center mt-3 fs-2 fw-bold">Netherlands</h5>
+                                <p class="card-text text-justify" style="text-align: justify;">This is a beautiful
+                                    country with temperate climate in the western part of Europe, attracting tourism
+                                    like bees. Netherlands makes for one hell of a holiday with history, nature and
+                                    culture colliding in an explosive mix of art is a treat to watch..</p>
+                                <p class="fs-5">Price : <span class="fw-medium"
+                                        style="color: rgb(255, 9, 17);">$10000</span></p>
+                                <a href="#" class="btn"
+                                    style="background-color: rgb(27, 31, 33); color: white;">Book</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-4 mt-lg-0">
+                        <div class="card shadow" style="width:100%">
+                            <img src="https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcRHBgk0XKmbj7HDmcNUn7DXYhST2Ww826KZ7WhrCO6num54Qx9lNoluuVxfyPDF6WlqYrbhuI2Bn84UghonxbCZGXeqKZ2KNrtJyISJWQ"
+                                alt="..." class="card-img-top" style="height: 250px; width: 100%;">
+                            <div class="card-body">
+                                <h5 class="card-title text-center mt-3 fs-2 fw-bold">Norway</h5>
+                                <p class="card-text text-justify" style="text-align: justify;">Norway is a destination
+                                    full of charms, including its famous fjords, Viking legends, thriving cultural
+                                    heritage and quaint fishing villages. From north to south, it is a nature lover's
+                                    paradise that also boasts numerous trendy cities to explore.</p>
+                                <p class="fs-5">Price : <span class="fw-medium"
+                                        style="color: rgb(255, 9, 17);">$10000</span></p>
+                                <a href="#" class="btn"
+                                    style="background-color: rgb(27, 31, 33); color: white;">Book</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- services -->
+
+        <section id="service">
+            <div class="container-fluid mt-5">
+                <h2 class="text-center fs-2 fw-bold" style="color: rgb(30, 62, 98);">Services</h2>
+
+                <div class="row mt-5">
+                    <div class="col-md-3">
+                        <div class="card p-3 shadow">
+                            <div class="card-body text-center">
+                                <p class="fs-1" style="color: rgb(30, 62, 98);"><i class="fa-solid fa-plane fa-2xl"></i>
+                                </p>
+                                <h5 class="card-title mt-2 fs-2 fw-bold" style="color: rgb(30, 62, 98);">Flight Booking
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3  mt-3 mt-lg-0">
+                        <div class="card p-3 shadow">
+                            <div class="card-body text-center">
+                                <p class="fs-1" style="color: rgb(30, 62, 98);"><i class="fa-solid fa-hotel fa-2xl"></i>
+                                </p>
+                                <h5 class="card-title mt-2 fs-2 fw-bold" style="color: rgb(30, 62, 98);"> Hotel Bookings
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3  mt-3 mt-lg-0">
+
+                        <div class="card p-3 shadow">
+                            <div class="card-body text-center">
+                                <p class="fs-1" style="color: rgb(30, 62, 98);"><i class="fa-solid fa-car fa-2xl"></i>
+                                </p>
+                                <h5 class="card-title mt-2 fs-2 fw-bold" style="color: rgb(30, 62, 98);">Car Rentals
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3  mt-3 mt-lg-0">
+                        <div class="card p-3 shadow">
+                            <div class="card-body text-center">
+                                <p class="fs-1" style="color: rgb(30, 62, 98);"><i
+                                        class="fa-solid fa-passport fa-2xl"></i></p>
+                                <h5 class="card-title mt-2 fs-2 fw-bold" style="color: rgb(30, 62, 98);">Visa Process
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-5">
+                    <div class="col-md-3  mt-3 mt-lg-0">
+                        <div class="card p-3 shadow">
+                            <div class="card-body text-center">
+                                <p class="fs-1" style="color: rgb(30, 62, 98);"><i
+                                        class="fa-solid fa-shield fa-2xl"></i></p>
+                                <h5 class="card-title mt-2 fs-2 fw-bold" style="color: rgb(30, 62, 98);">Travel
+                                    Insurance</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3  mt-3 mt-lg-0">
+                        <div class="card p-3 shadow">
+                            <div class="card-body text-center">
+                                <p class="fs-1" style="color: rgb(30, 62, 98);"><i class="fa-solid fa-ring fa-2xl"></i>
+                                </p>
+                                <h5 class="card-title mt-2 fs-2 fw-bold" style="color: rgb(30, 62, 98);">Wedding Getaway
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3  mt-3 mt-lg-0">
+
+                        <div class="card p-3 shadow">
+                            <div class="card-body text-center">
+                                <p class="fs-1" style="color: rgb(30, 62, 98);"><i
+                                        class="fa-solid fa-mountain fa-2xl"></i></p>
+                                <h5 class="card-title mt-2 fs-2 fw-bold" style="color: rgb(30, 62, 98);">Adventure
+                                    Travel</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3  mt-3 mt-lg-0">
+                        <div class="card p-3 shadow">
+                            <div class="card-body text-center">
+                                <p class="fs-1" style="color: rgb(30, 62, 98);"><i class="fa-solid fa-taxi fa-2xl"></i>
+                                </p>
+                                <h5 class="card-title mt-2 fs-2 fw-bold" style="color: rgb(30, 62, 98);">Airport
+                                    Transfers</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reviews -->
+
+        <section id="feedback">
+            <div class="container mt-5">
+                <h2 class="text-center fs-2 fw-bold" style="color: rgb(30, 62, 98);">What Customers Say About Us</h2>
+                <div class="row mt-5">
+                    <div class="col-md-4 mt-4 mt-lg-0">
+                        <div class="card p-5 shadow">
+
+                            <img src="https://plus.unsplash.com/premium_photo-1682090160063-dbe8ae649fc6?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aGFwcHklMjBwZXJzb258ZW58MHx8MHx8fDA%3D"
+                                class="card-img-top"
+                                style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin: 0 auto;"
+                                alt="...">
+                            <div class="card-body shadow">
+                                <h5 class="card-title text-center">Samuel John</h5>
+                                <p class="card-text text-center">"Luxe Horizons planned the trip of a lifetime for
+                                    us—everything was seamless, and the attention to detail was incredible!"</p>
+                                <p class="text-center fs-3 mt-4"><i class="fa-solid fa-star"
+                                        style="color: #ffd642;"></i><i class="fa-solid fa-star"
+                                        style="color: #ffd642;"></i><i class="fa-solid fa-star"
+                                        style="color: #ffd642;"></i><i class="fa-solid fa-star"
+                                        style="color: #ffd642;"></i><i class="fa-regular fa-star"></i></p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4 mt-4 mt-lg-0">
+                        <div class="card p-5 shadow">
+
+                            <img src="https://www.allprodad.com/wp-content/uploads/2021/03/05-12-21-happy-people.jpg"
+                                class="card-img-top"
+                                style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin: 0 auto;"
+                                alt="...">
+                            <div class="card-body shadow">
+                                <h5 class="card-title text-center">Avarachan</h5>
+                                <p class="card-text text-center">"Amazing service! Luxe Horizons made our vacation
+                                    stress-free and absolutely unforgettable.Thank you Luxe Horizons"</p>
+                                <p class="text-center fs-3 mt-4"><i class="fa-solid fa-star"
+                                        style="color: #ffd642;"></i><i class="fa-solid fa-star"
+                                        style="color: #ffd642;"></i><i class="fa-solid fa-star"
+                                        style="color: #ffd642;"></i><i class="fa-solid fa-star"
+                                        style="color: #ffd642;"></i><i class="fa-solid fa-star"
+                                        style="color: #ffd642;"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-4 mt-lg-0">
+                        <div class="card p-5 shadow">
+
+                            <img src="https://politics.princeton.edu/sites/default/files/styles/square/public/images/p-5.jpeg?h=87dbaab7&itok=ub6jAL5Q"
+                                class="card-img-top"
+                                style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin: 0 auto;"
+                                alt="...">
+                            <div class="card-body shadow">
+                                <h5 class="card-title text-center">Raghavan</h5>
+                                <p class="card-text text-center">"Luxe Horizons exceeded our expectations—every moment
+                                    of our trip was perfectly curated and truly magical!"</p>
+                                <p class="text-center fs-3 mt-4"><i class="fa-solid fa-star"
+                                        style="color: #ffd642;"></i><i class="fa-solid fa-star"
+                                        style="color: #ffd642;"></i><i class="fa-solid fa-star"
+                                        style="color: #ffd642;"></i><i class="fa-solid fa-star"
+                                        style="color: #ffd642;"></i><i class="fa-solid fa-star"
+                                        style="color: #ffd642;"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <footer>
+
+            <div class="container-fluid mt-5" style="background-color: rgb(177, 240, 247);">
+                <div class="d-flex justify-content-center align-items-center flex-column">
+
+                    <h1 style="color: rgb(30, 62, 98);" class="shadow p-2 mt-5">Luxe Horizons</h1>
+                    <p class="mt-2 fst-italic fw-normal">"Explore the world with us—your adventure begins here!"</p>
+                    <div class="social-links mt-2">
+                        <i class="fa-brands fa-twitter p-3 ms-2"></i>
+                        <i class="fa-brands fa-facebook p-3 ms-2"></i>
+                        <i class="fa-brands fa-instagram p-3 ms-2"></i>
+                        <i class="fa-brands fa-youtube p-3 ms-2"></i>
+                        <i class="fa-brands fa-square-whatsapp p-3 ms-2"></i>
+                    </div>
+                    <div class="mt-3">
+                        <p class="fw-bold">Designed By Luxe Horizon</p>
+                    </div>
+                    <div class="fs-5 fst-italic fw-medium">
+                        <p>&copy;Copyright Horizone Agency . All Rights Reserved.</p>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+
+</body>
+
+</html>

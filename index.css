@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", serif;
+}
+
+.button:hover{
+    border: 1px solid;
+    background-color: rgb(0, 141, 218);
+    border-radius: 50px;
+}
+#home{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)), url(https://wallpapercave.com/wp/wp10611290.jpg);
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#home .content{
+    padding-top: 200px;
+}
+
+.social-links i{
+    border-radius: 5px;
+    background: black;
+    color: white;
+    transition: 700ms;  
+}
+.social-links i:hover{
+    background: rgb(60, 23, 243)0;
+    scale: 1.2;
+}
